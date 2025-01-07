@@ -387,8 +387,8 @@ color: rgba(176, 164, 141, 0.653);
 .callsec-row{
   /* border: 1px solid black; */
   display: inline-block;
-  top: 68%;
-  right: 20px;
+  top: 65%;
+  right: 10px;
   z-index: 1000;
   /* background-color: yellow; */
   position: fixed;
@@ -404,10 +404,27 @@ color: rgba(176, 164, 141, 0.653);
 }
 .callsec-col2 i{
   font-size: 40px;
-  color: white;
+  color: rgb(0, 0, 0);
   background-color: #0c6991;
   border-radius: 50%;
   padding: 5px;
   margin-top: 5px;
   cursor: pointer;
+}
+.s-c button{
+  background-color: red;
+}
+/* -----------home fav food sec--------- */
+.home-fav-food{
+  transition: ease-in 0.5s;
+}
+.home-fav-food img{
+  cursor: pointer;
+  box-shadow: 1px 1px 5px black;
+  transition: ease-in-out 0.5s;
+
+}
+.home-fav-food:hover{
+  /* cursor: pointer; */
+  box-shadow: 1px 1px 5px black;
 }

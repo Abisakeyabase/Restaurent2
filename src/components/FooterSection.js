@@ -24,7 +24,8 @@ const FooterSection = () => {
       <div className='col' style={{display:'block'}}>
         <div className='footer-rev'>
             <h1>Review Here</h1>
-            <textarea type='text' className='form-control' rows={4} placeholder='Give your honorable Review Here..'></textarea>
+            <input type='text' className='form-control' placeholder='Enter your E-mail'></input>
+            <textarea type='text' className='form-control' rows={4} placeholder='Give your honorable Review Here..' style={{marginTop:'7px'}}></textarea>
             <div className='d-flex justify-content-end mt-2 me-2'>
             <button className='btn btn-success mt-2 d-flex justify-content-end'>Submit</button>
             </div>
